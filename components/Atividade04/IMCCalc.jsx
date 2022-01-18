@@ -10,7 +10,7 @@ const calcularIMC = (props)=>{
         return(
             <View>
                 <Text style={{fontSize:18}}>
-                    IMC: {props.peso/(props.altura*props.altura)}
+                    IMC: {(props.peso/(props.altura*props.altura))}
                 </Text>
                 <Mensagem IMC={imc}/>
             </View>

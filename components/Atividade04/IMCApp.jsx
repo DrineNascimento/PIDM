@@ -36,6 +36,7 @@ export default class CalculadoraApp extends Component{
             <TextInput
                 style={estilos.altura}
                 placeholder="Digite a altura"
+                keyboardType="decimal-pad"
                 onChangeText={(altura)=> this.setState({altura:altura})} //pega a mudança em tempo real
             />
 
